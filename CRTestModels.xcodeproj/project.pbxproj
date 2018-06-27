@@ -15,6 +15,7 @@
 		D591F73920E380E900C284EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D591F73820E380E900C284EF /* main.m */; };
 		D591F74320E380E900C284EF /* CRTestModelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D591F74220E380E900C284EF /* CRTestModelsTests.m */; };
 		D591F74E20E380E900C284EF /* CRTestModelsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D591F74D20E380E900C284EF /* CRTestModelsUITests.m */; };
+		D591F76220E3820000C284EF /* CRTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D591F76120E3820000C284EF /* CRTestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D591F74920E380E900C284EF /* CRTestModelsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRTestModelsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D591F74D20E380E900C284EF /* CRTestModelsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTestModelsUITests.m; sourceTree = "<group>"; };
 		D591F74F20E380E900C284EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D591F76020E3820000C284EF /* CRTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRTestModel.h; sourceTree = "<group>"; };
+		D591F76120E3820000C284EF /* CRTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRTestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		D591F72820E380E700C284EF /* CRTestModels */ = {
 			isa = PBXGroup;
 			children = (
+				D591F75F20E381E900C284EF /* CRTestModels */,
 				D591F72920E380E700C284EF /* AppDelegate.h */,
 				D591F72A20E380E700C284EF /* AppDelegate.m */,
 				D591F72C20E380E700C284EF /* ViewController.h */,
@@ -130,6 +134,15 @@
 				D591F74F20E380E900C284EF /* Info.plist */,
 			);
 			path = CRTestModelsUITests;
+			sourceTree = "<group>";
+		};
+		D591F75F20E381E900C284EF /* CRTestModels */ = {
+			isa = PBXGroup;
+			children = (
+				D591F76020E3820000C284EF /* CRTestModel.h */,
+				D591F76120E3820000C284EF /* CRTestModel.m */,
+			);
+			path = CRTestModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				D591F72E20E380E700C284EF /* ViewController.m in Sources */,
 				D591F73920E380E900C284EF /* main.m in Sources */,
+				D591F76220E3820000C284EF /* CRTestModel.m in Sources */,
 				D591F72B20E380E700C284EF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

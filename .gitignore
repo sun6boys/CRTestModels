@@ -1,0 +1,7 @@
+CRTestModels.xcodeproj/xcuserdata/
+CRTestModels.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+CRTestModels.xcodeproj/project.xcworkspace/xcuserdata/
